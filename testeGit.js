@@ -1,8 +1,7 @@
 var Pessoa = (function(){
 	
 	//constructor function 
-	function Task(){
-	}
+	function Task(){}
 	
 	Task.prototype.getName = function () {
          return this.Name;
