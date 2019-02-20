@@ -12,5 +12,14 @@ var Pessoa = (function(){
          this.Name = name;
      };
 
+
+	Task.prototype.getDocument = function () {
+         return this.Document;
+     };
+
+	Task.prototype.setDocument = function (_document) {
+         this.Document = _document;
+     };
+
 	 
 })()
